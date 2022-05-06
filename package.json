@@ -1,0 +1,24 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "test:watch": "jest --config jest.config.json --passWithNoTests --no-cache --runInBand --watch"
+  },
+  "repository": "https://github.com/letidesi/TDD.git",
+  "author": "Leticia Desiderio <letidesiderio18@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest-mock": "^28.0.2",
+    "typescript": "4.6.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "ts-jest": "^28.0.1"
+  }
+}
